@@ -1,2 +1,2 @@
 # Progressive_transmission
-This repository containes material realated to Progressive transmission paper.
+This repository contains material related to  "Progressive Transmission using Recurrent Neural Networks" paper.
