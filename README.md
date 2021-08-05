@@ -1,2 +1,5 @@
-# Progressive_transmission
-This repository contains material related to  "Progressive Transmission using Recurrent Neural Networks" paper.
+# Progressive Transmission
+This repository contains some figures related to the "Progressive Transmission using Recurrent Neural Networks" paper https://arxiv.org/abs/2108.01643.
+
+# Abstract 
+In this paper, we investigate a new machine learning based transmission strategy called progressive transmission or ProgTr. In ProgTr, there are b variables that should be transmitted using at most T channel uses. The transmitter aims to send the data to the receiver as fast as possible and with as few channel uses as possible (as channel conditions permit) while the receiver refines its estimate after each channel use. We use recurrent neural networks as the building block of both the transmitter and receiver where the SNR is provided as an input that represents the channel conditions. To show how ProgTr works, the proposed scheme was simulated in different scenarios including single/multi-user settings, different channel conditions, and for both discrete and continuous input data. The results show that ProgTr can achieve better performance compared to conventional modulation methods. In addition to performance metrics such as BER, bit-wise mutual information is used to provide some interpretation to how the transmitter and receiver operate in ProgTr.
